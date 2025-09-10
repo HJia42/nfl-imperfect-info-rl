@@ -1,7 +1,11 @@
 from typing import List
 
 
-def bin_yardline(yardline: int, edges: List[int] | None = None, labels: List[str] | None = None) -> str:
+def bin_yardline(
+    yardline: int,
+    edges: List[int] | None = None,
+    labels: List[str] | None = None,
+) -> str:
     """Simple yardline binning. Yardline measured from own GL [1..99].
 
     Default bins:
@@ -16,4 +20,3 @@ def bin_yardline(yardline: int, edges: List[int] | None = None, labels: List[str
         if edges[i] < yardline <= edges[i + 1]:
             return labels[i]
     return labels[-1]
-
