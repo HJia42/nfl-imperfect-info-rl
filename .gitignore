@@ -30,11 +30,11 @@ MANIFEST
 .env
 .venv
 # Avoid ignoring the package module at src/env
-env/
+/env/
 !src/env/
 !src/env/**
 venv/
-ENV/
+/env/
 env.bak/
 venv.bak/
 
@@ -71,3 +71,5 @@ dmypy.json
 # Logs
 logs/
 *.log
+rn# Unignore Python package at src/envrn!src/env/rn!src/env/**rn
+rn# Unignore Python package at src/envrn!src/env/rn!src/env/**rn
