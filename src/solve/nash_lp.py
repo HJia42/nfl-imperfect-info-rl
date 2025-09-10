@@ -10,4 +10,3 @@ def compute_nash_by_lp(payoff: np.ndarray) -> np.ndarray:
     if n_offense == 0:
         return np.array([])
     return np.full(n_offense, 1.0 / n_offense)
-

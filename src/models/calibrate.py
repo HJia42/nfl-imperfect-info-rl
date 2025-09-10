@@ -8,4 +8,3 @@ def calibrate_epa_model(data) -> Any:
             return [0.0] * len(X)
 
     return _Model()
-

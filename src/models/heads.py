@@ -23,4 +23,3 @@ def list_offense_actions() -> List[str]:
 
 def list_defense_actions() -> List[str]:
     return [a.value for a in DefenseAction]
-

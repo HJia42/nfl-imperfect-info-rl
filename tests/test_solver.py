@@ -1,8 +1,8 @@
 import numpy as np
 
+from src.env.football_mdp import FootballMDP
 from src.solve.nash_lp import compute_nash_by_lp
 from src.solve.policy_iteration import policy_iteration
-from src.env.football_mdp import FootballMDP
 
 
 def test_nash_lp_uniform():
@@ -19,4 +19,3 @@ def test_policy_iteration_shape():
     assert pi.shape == (5,)
     assert np.isclose(pi.sum(), 1.0)
     assert pi[0] == 1.0
-

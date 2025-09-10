@@ -1,5 +1,6 @@
-from pydantic import BaseModel
 from typing import List
+
+from pydantic import BaseModel
 
 
 class GameConfig(BaseModel):
@@ -23,4 +24,3 @@ class GameConfig(BaseModel):
 
 
 DEFAULT_CONFIG = GameConfig()
-

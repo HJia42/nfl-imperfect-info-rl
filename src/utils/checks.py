@@ -8,4 +8,3 @@ def is_probability_distribution(x: Sequence[float], tol: float = 1e-6) -> bool:
         return False
     s = float(sum(x))
     return abs(s - 1.0) <= tol
-

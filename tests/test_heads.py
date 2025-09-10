@@ -1,4 +1,9 @@
-from src.models.heads import list_defense_actions, list_offense_actions, OffenseAction, DefenseAction
+from src.models.heads import (
+    DefenseAction,
+    OffenseAction,
+    list_defense_actions,
+    list_offense_actions,
+)
 
 
 def test_action_sets():
@@ -8,4 +13,3 @@ def test_action_sets():
     assert len(deff) == 4
     assert OffenseAction.Deep.value in off
     assert DefenseAction.TwoHigh_Blitz.value in deff
-

@@ -16,4 +16,3 @@ def test_special_teams_rule():
     assert decide_kick(30) == "PUNT"
     assert decide_kick(65) == "FG"
     assert decide_kick(80) == "FG"
-
