@@ -1,0 +1,6 @@
+defense_effects:
+  TwoHigh-Light: 0.00
+  OneHigh-Light: 0.02
+  OneHigh-Blitz: -0.05
+  TwoHigh-Blitz: -0.02
+

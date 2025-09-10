@@ -1,0 +1,4 @@
+yardline_bins:
+  edges: [0, 20, 50, 80, 100]
+  labels: [Own, Mid, Opp, RedZone]
+
