@@ -29,7 +29,10 @@ MANIFEST
 # Virtual environments
 .env
 .venv
+# Avoid ignoring the package module at src/env
 env/
+!src/env/
+!src/env/**
 venv/
 ENV/
 env.bak/
@@ -68,4 +71,3 @@ dmypy.json
 # Logs
 logs/
 *.log
-
